@@ -10,7 +10,7 @@ function GuessControl ({onGuess}) {
   };
 
   const onSubmitGuess = () => {
-    {onGuess (Number(currentGuess)) };
+    onGuess (Number(currentGuess));
     setCurrentGuess ("");
   }
   
